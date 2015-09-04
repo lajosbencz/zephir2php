@@ -1,0 +1,17 @@
+{
+  "name": "lajosbencz/zephir2php",
+  "description": "Convert Zephir source files to regular PHP",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Lajos Bencz",
+      "email": "lazos@lazos.me"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Zephir2Php\\": "src/"
+    }
+  }
+}

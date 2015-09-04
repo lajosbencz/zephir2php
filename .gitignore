@@ -1,0 +1,8 @@
+
+### PhpStorm
+.idea/
+
+### Composer template
+composer.phar
+composer.lock
+vendor/
