@@ -29,4 +29,6 @@ getTarget( void ) - returns target directory
 run( void ) - run the converter
 
 **the set-- functions is also returns $this, so it can be used like that:
-<br>(new Zephir2PHP\Converter())->setSource('mysource_zep')->setTarget('mysource')->run();**
+<br>(new Zephir2PHP\Converter())->setSource('mysource_zep')->setTarget('mysource')->run();
+<br>or that:
+<br>(new Zephir2PHP\Converter('mysource_zep', 'mysource'))->run();**
