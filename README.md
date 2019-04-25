@@ -11,7 +11,14 @@ Convert Zephir source files to regular PHP
 The main package class is Zephir2Php\Converter:
 
 Functions:
-<br>setSource( string $directory ) - source directory with *.zep files
+
+Constructor:<br>
+new Converter()<br>
+new Converter($sourceDirectory)<br>
+new Converter($sourceDirectory, $outputDirectory)<br>
+new Converter($sourceDirectory, $outputDirectory,  'someTrash <-- this will be ignored')
+
+setSource( string $directory ) - source directory with *.zep files
 
 getSource( void ) - returns source directory
 
