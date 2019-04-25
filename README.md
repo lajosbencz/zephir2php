@@ -3,7 +3,7 @@ Convert Zephir source files to regular PHP
 
 # How to use
 1. Install package via composer
-2. Include package in project
+2. Include package in the project
 3. Create file or add somewhere in the project code to work with zephir sources
 
 # Documentation
