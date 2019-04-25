@@ -20,8 +20,22 @@ class Converter
     /** @var File\Iterator */
     protected $sourceIterator = null;
 
-    public function __construct() {
-
+    public function __construct(...$args) 
+    {
+        switch( count($args) )
+        {
+            case 0:
+                break;
+            case 1:
+                {
+                    $this->setSource($args[0]);
+                } break;
+            default:
+                {
+                    $this->setSource($args[0]);
+                    $this->setTarget($args[1]);
+                } break;
+        }
     }
 
     public function setSource($directory) {
