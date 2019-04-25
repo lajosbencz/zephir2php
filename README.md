@@ -9,11 +9,16 @@ Convert Zephir source files to regular PHP
 # Documentation
 
 The main package class is Zephir2Php\Converter:
+
 Functions:
-setSource( string $directory ) - source directory with *.zep files
+<br>setSource( string $directory ) - source directory with *.zep files
+
 getSource( void ) - returns source directory
+
 setTarget( string $directory ) - target directory, to store the output *.php files
+
 getTarget( void ) - returns target directory
+
 run( void ) - run the converter
 
 **the set-- functions is also returns $this, so it can be used like that:
